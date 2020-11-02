@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BAC Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="BAC">
+    <h2 style="font-family: 'Courier New'">Blood Alcohol Content Calculator</h2>
+    <h4 style="margin-top: -20px; margin-bottom: -1px">(BAC)</h4>
+    <div class="infoBAC">
+        <label class="inputLabels" for="beerNumInput">Number of Beers Consumed</label>
+        <br>
+        <input class="textInput" type="number" id="beerNumInput" placeholder="Beer(s)" s>
+        <img src="media/beer_TRANSPARENT.png" class="img" id="beer_TRANSPARENT" style="width: 150px; height: 100px;">
+    </div>
+    <div class="infoBAC">
+        <label class="inputLabels" for="wineNumInput">Glasses of Wine Consumed</label>
+        <br>
+        <input class="textInput" type="number" id="wineNumInput" placeholder="Glass(es)">
+        <img src="media/wine_TRANSPARENT.png" class="img" id="wine_TRANSPARENT" style="width: 100px; height: 100px; padding-right: 25px;">
+    </div>
+    <div class="infoBAC">
+        <label class="inputLabels" for="shotNumInput">Number of Shots Consumed</label>
+        <br>
+        <input class="textInput" type="number" id="shotNumInput" placeholder="Shot(s)">
+        <img src="media/shot_TRANSPARENT.png" class="img" id="shot_TRANSPARENT" style="width: 50px; height: 100px; padding-right: 50px;">
+    </div>
+    <div id="personalBAC">
+        <label class="inputLabels" for="weightInput" id="weightInputLabel">Enter Weight</label>
+        <input class="personalInfo" type="number" id="weightInput" placeholder="Pounds">
+        <br><br><br>
+        <label class="inputLabels" for="hoursInput" id="hoursInputLabel">Hours Since Last Drink</label>
+        <input class="personalInfo" type="number" id="hoursInput" placeholder="Hour(s)">
+    </div>
+    <button class="calcBAC" id="buttonBAC">Calculate BAC</button>
+    <br><br><br><br>
+    <textarea class="output" id="outputBAC" rows="5" cols="35" readonly></textarea>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="code.js"></script>
+</body>
+</html>

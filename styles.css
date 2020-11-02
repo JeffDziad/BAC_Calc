@@ -1,0 +1,170 @@
+body
+{
+    background: lightblue;
+}
+
+.img
+{
+    float: right;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    margin-top: -40px;
+}
+
+#BAC
+{
+    height: 865px;
+    background-color: white;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 25px auto 15px;
+    border: solid black 3px;
+    box-shadow: black 10px 10px 15px;
+}
+
+.infoBAC
+{
+    margin-top: 5px;
+    border-top: double black 3px;
+    border-bottom: double black 3px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.personalInfo
+{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.personalInfo:focus
+{
+    box-shadow: dodgerblue 2px 2px 5px;
+    outline: none;
+    border: solid dodgerblue 1px;
+    font-weight: bold;
+}
+
+#weightInput
+{
+    margin-top: 8px;
+    float: left;
+    width: 90px;
+
+}
+
+#hoursInput
+{
+    margin-top: 8px;
+    float: left;
+    width: 90px;
+}
+
+.textInput
+{
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+}
+
+.textInput:focus
+{
+    box-shadow: dodgerblue 2px 2px 5px;
+    outline: none;
+    border: solid dodgerblue 1px;
+    font-weight: bold;
+}
+
+.inputLabels
+{
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.calcBAC {
+    margin-top: 20px;
+    box-shadow: 0px 1px 0px 0px #fff6af;
+    background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    background-color:#ffec64;
+    border-radius:6px;
+    border:1px solid #ffaa22;
+    display:inline-block;
+    cursor:pointer;
+    color:#333333;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffee66;
+}
+
+.calcBAC:hover {
+    background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    background-color:#ffab23;
+}
+
+.calcBAC:active {
+    position:relative;
+    top:1px;
+}
+
+.output
+{
+    display: none;
+}
+
+/* IMG CSS */
+#beer_TRANSPARENT
+{
+    border-right: solid goldenrod 5px;
+    /*box-shadow: goldenrod 2px 2px 10px;*/
+    box-shadow: 10px 0 5px -5px #888;
+}
+
+#wine_TRANSPARENT
+{
+    border-right: solid darkslateblue 5px;
+    box-shadow: 10px 0 5px -5px #888;
+}
+
+#shot_TRANSPARENT
+{
+    border-right: solid saddlebrown 5px;
+    box-shadow: 10px 0 5px -5px #888;
+}
+/* END IMG CSS */
+
+#personalBAC
+{
+    margin-top: 5px;
+    border-top: double black 3px;
+    border-bottom: double black 3px;
+    padding: 10px;
+    overflow: auto;
+    text-align: center;
+    height: 120px;
+}
+
+#weightInputLabel
+{
+    margin-left: 100px;
+}
+
+#hoursInputLabel
+{
+    margin-left: 10px;
+}
+
+#outputBAC
+{
+    margin-top: -35px;
+    margin-right: 10px;
+    resize: none;
+    border: solid black 2px;
+}
